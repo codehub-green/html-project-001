@@ -1,3 +1,27 @@
 h1 {
-    color: rgb(192, 30, 192);
+    color: rgb(35, 35, 35);
+}
+
+body {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-photo {
+    width: 100%;
+}
+
+#info-grid {
+    display: grid;
+    grid-template-columns: 700px 240px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #191919;
+    line-height: 28px;
+    padding: 0px 10px;
+    width: 640px;
 }
