@@ -2,6 +2,11 @@ h1 {
     color: rgb(35, 35, 35);
 }
 
+#info-grid {
+    display: grid;
+    grid-template-columns: 700px 240px;
+}
+
 body {
     width: 940px;
     margin-left: auto;
@@ -10,11 +15,6 @@ body {
 
 .main-photo {
     width: 100%;
-}
-
-#info-grid {
-    display: grid;
-    grid-template-columns: 700px 240px;
 }
 
 p {
