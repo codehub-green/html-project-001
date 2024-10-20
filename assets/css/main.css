@@ -1,10 +1,22 @@
 * {
     font-family: Open Sans;
+    margin: 0;
+    color: #191919;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 32px;
     color: #191919;
+    margin-bottom: 26px;
+}
+
+h4 {
+    margin-bottom: 26px;
+}
+
+h5 {
+    margin-top: 14px;
+    margin-bottom: 10px;
 }
 
 #page-size {
@@ -16,6 +28,8 @@ h1 {
 #main-photo {
     width: 100%;
     border-radius: 4px;
+    margin-top: 0px;
+    margin-bottom: 14px;
 }
 
 #page-grid-1 {
@@ -23,12 +37,71 @@ h1 {
     grid-template-columns: 640px 1fr;
 }
 
+#bid-flex-box {
+    display: flex;
+    font-size: 8px;
+    margin-bottom: 14px;
+    align-items: center;
+}
 
-p {
+#bid-flex-box p {
+    font-size: 14px;
+}
+
+#currentBid-div, #endsIn-div {
+    border-right: #a8a8a8 1px solid;
+    margin-right: 18px;
+    padding-right: 18px;
+}
+
+#comments-div {
+    margin-right: 178px;
+}
+
+#how-it-work-button, #watch-button {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-right: 16px;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#place-bid-button {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: #191919;
+    color: white;
+}
+
+#star-svg {
+    width: 18px;
+    vertical-align: top;
+    margin-right: 6px;
+}
+
+.make-red {
+    color: #D80000;
+}
+
+.comment-icon {
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+#count-down {
+    font-weight: bold;
+    color: #D80000;
+}
+
+#page-grid-1 p {
     font-size: 16px;
     color: #191919;
     line-height: 28px;
     padding: 0 10px 0 0;
+    margin-bottom: 14px;
 }
 
 a {
@@ -40,17 +113,18 @@ a {
 }
 
 #bat-essentials {
-    margin-top: 1em;
     padding: 20px;
     border-radius: 8px;
     background-color: #F8F8F8;
     
 }
 
-
+li {
+    padding-bottom: 2px;
+}
 
 .black-text-plain, ul {
-    font-size: 11px;
+    font-size: 12px;
     color: #191919;
     font-weight: normal;
 }
