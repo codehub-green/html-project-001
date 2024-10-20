@@ -98,6 +98,27 @@ h5 {
     color: #D80000;
 }
 
+#make-model-era-flexbox {
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.make-model-era-buttons {
+    background-color: white;
+    border-color: rgba(128, 128, 128, 0.25);
+    font-size: 12px;
+    padding: 8px 14px;
+    margin-right: 10px;
+    border-width: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px #dbdbdb;
+}
+
+.make-model-era-buttons:hover {
+    box-shadow: 4px 4px 10px 1px #dadada;
+}
+
 #page-grid-1 p {
     font-size: 16px;
     color: #191919;
