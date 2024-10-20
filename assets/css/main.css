@@ -65,6 +65,7 @@ h5 {
     border-width: 1px;
     border-radius: 4px;
     background-color: white;
+    cursor: pointer;
 }
 
 #place-bid-button {
@@ -74,6 +75,7 @@ h5 {
     border-radius: 4px;
     background-color: #191919;
     color: white;
+    cursor: pointer;
 }
 
 #star-svg {
