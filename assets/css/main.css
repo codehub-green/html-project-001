@@ -20,11 +20,12 @@ h5 {
     margin-bottom: 10px;
 }
 
-#heading-1-pt1 {
+#heading-1 {
     height: 74px;
     background-color: #000000;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 #bat-logo {
@@ -34,11 +35,13 @@ h5 {
 }
 
 #search-bar {
-    width: 790px;
+    display: flex;
+    width: 840px;
     height: 42px;
     margin-right: 40px;
     border-radius: 4px;
     border: none;
+
 }
 
 #search-bar::placeholder {
@@ -46,13 +49,14 @@ h5 {
     font-size: 14px;
 }
 
-#heading-1-pt1 a {
+#heading-1 a {
     color: white;
     font-size: 14px;
 }
 
 #nested-section {
     flex: 1;
+    max-width: 400px;
     display: flex;
     justify-content: space-between;
     margin-right: 40px;
