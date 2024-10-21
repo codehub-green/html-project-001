@@ -20,29 +20,37 @@ h5 {
     margin-bottom: 10px;
 }
 
-
-/* UNDER CONSTRUCTION */
-/* UNDER CONSTRUCTION */
-/* UNDER CONSTRUCTION */
-
-/* Head Section 3 Background*/
-#head-section-3 {
-    background-color: #f2f2f2;
-    height: 100px;
-    display: flex;
-}
-
-/* Head Section 3 Content */
-#new-to-bat {
-    align-content: center;
+#heading-2 {
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 42px;
+    align-items: center;
+    margin-bottom: 14px;
 }
 
-/* UNDER CONSTRUCTION */
-/* UNDER CONSTRUCTION */
-/* UNDER CONSTRUCTION */
+#heading-2 a {
+    margin-right: 4px;
+    font-size: 14px;
+}
 
+#heading-2 a:hover {
+    color: #D80000;
+}
+
+#heading-3 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(250, 243, 182);
+    width: 890px;
+    height: 68px;
+    padding-left: 50px;
+    align-content: center;
+    border-radius: 12px;
+    box-shadow: 1px 1px 20px 1px #f0f0f0;
+}
 
 #page-size {
     width: 940px;
@@ -81,6 +89,7 @@ h5 {
 
 #comments-div {
     margin-right: 178px;
+    cursor: pointer;
 }
 
 #how-it-work-button, #watch-button {
@@ -137,11 +146,11 @@ h5 {
     border-width: 1px;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 1px 1px 5px 1px #dbdbdb;
+    box-shadow: 1px 1px 5px 1px #f0f0f0;
 }
 
 .make-model-era-buttons:hover {
-    box-shadow: 4px 4px 10px 1px #dadada;
+    box-shadow: 4px 4px 10px 1px #f0f0f0;
 }
 
 #page-grid-1 p {
