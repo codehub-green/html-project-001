@@ -35,22 +35,24 @@ h5 {
 
 #left-div {
     flex: 1;
+    margin-left: 50px;
     justify-content: center;
 }
 
 #bat-logo {
     width: 176px;
-    margin-left: 50px;
-    
 }
 
 #center-div {
-    flex:1;
-    margin-right: 350px;
+    width: 940px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #search-bar {
-    width: 940px;
+    display: flex;
+    width: 100%;
+    min-width: 400px;
     height: 42px;
     border-radius: 4px;
     border: none;
@@ -62,10 +64,16 @@ h5 {
 }
 
 #right-div {
+    flex: 1;
     margin-right: 50px;
-    width: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+    flex-shrink: 0;
+    text-wrap: nowrap;
+}
+
+#right-div a {
+    margin-left: 25px;
 }
 
 #heading-2 {
