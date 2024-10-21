@@ -27,6 +27,16 @@ h5 {
     align-items: center;
 }
 
+#heading-1 a {
+    color: white;
+    font-size: 14px;
+}
+
+#bat-logo-div {
+    display: flex;
+    justify-content: center;
+}
+
 #bat-logo {
     width: 176px;
     margin-left: 300px;
@@ -34,12 +44,13 @@ h5 {
 }
 
 #search-bar-div {
+    display: flex;
     margin-left: 320px;
     margin-right: 50px;
 }
 
 #search-bar {
-    display: flex;
+    flex: 1;
     width: 940px;
     height: 42px;
     border-radius: 4px;
@@ -48,11 +59,6 @@ h5 {
 
 #search-bar::placeholder {
     padding-left: 15px;
-    font-size: 14px;
-}
-
-#heading-1 a {
-    color: white;
     font-size: 14px;
 }
 
