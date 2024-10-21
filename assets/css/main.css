@@ -24,6 +24,7 @@ h5 {
     height: 74px;
     background-color: #000000;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -32,25 +33,23 @@ h5 {
     font-size: 14px;
 }
 
-#bat-logo-div {
-    display: flex;
+#left-div {
+    flex: 1;
     justify-content: center;
 }
 
 #bat-logo {
     width: 176px;
-    margin-left: 300px;
+    margin-left: 50px;
     
 }
 
-#search-bar-div {
-    display: flex;
-    margin-left: 320px;
-    margin-right: 50px;
+#center-div {
+    flex:1;
+    margin-right: 350px;
 }
 
 #search-bar {
-    flex: 1;
     width: 940px;
     height: 42px;
     border-radius: 4px;
@@ -62,8 +61,8 @@ h5 {
     font-size: 14px;
 }
 
-#nested-section-div {
-    margin-right: 100px;
+#right-div {
+    margin-right: 50px;
     width: 400px;
     display: flex;
     justify-content: space-between;
