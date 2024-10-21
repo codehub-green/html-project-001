@@ -25,23 +25,25 @@ h5 {
     background-color: #000000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 #bat-logo {
     width: 176px;
-    margin-left: 94px;
-    margin-right: 100px;
+    margin-left: 300px;
+    
+}
+
+#search-bar-div {
+    margin-left: 320px;
+    margin-right: 50px;
 }
 
 #search-bar {
     display: flex;
-    width: 840px;
+    width: 940px;
     height: 42px;
-    margin-right: 40px;
     border-radius: 4px;
     border: none;
-
 }
 
 #search-bar::placeholder {
@@ -54,12 +56,11 @@ h5 {
     font-size: 14px;
 }
 
-#nested-section {
-    flex: 1;
-    max-width: 400px;
+#nested-section-div {
+    margin-right: 100px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
-    margin-right: 40px;
 }
 
 #heading-2 {
